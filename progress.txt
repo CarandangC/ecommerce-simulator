@@ -1,0 +1,29 @@
+Several students have discovered a problem when using the ORDERBOOK action. If the user accidentally enters a productId that is not a Book, then the system currently will accept this. This is obviously wrong.
+
+There are several solutions. We can use the validOptions() method in class Product to check for default options and return false if the productOptions parameter string is not null or not "" (empty string).  So, please change the validOptions() method in class Product to add this check. 
+
+Recall that in the orderProduct() method of class ECommerceSystem, the comments ask you to:
+
+// Check if the options are valid for this product (e.g. Paperback or Hardcover or EBook for Book product)
+// See class Product and class Book for the method validOptions()
+/ If options are not valid, set errMsg string and return null;
+
+
+March 15: 
+I have done validOptions method in Book.java (i am not sure if this is correct tho)
+I have done the equals method in Customer.java or Product.java (i think it was product.java)
+March 16:
+I have correctly done the getStockCount methoid in Book.java, however if it is not a valid book type, i made it return 0 
+since the method must return an integer
+I have done the setStockCount method in Book.java
+I have done the reduceStockCount method in Book.java
+I have finished the Book.java class (everything is filled in)
+March 21:
+Finished printAllOrders, 
+Finished createCustumer method
+March 22:
+Finished cancelOrder method in ECommerceSystem.java
+Did "SHIP" method
+Did "CUSTORDERS" method
+Finished printOrderHistory method in ECommerceSystem, although it needs to be tested for when a customer has an order/shipped order
+Completed hgalf of orderProduct method in ECommerceSystem.

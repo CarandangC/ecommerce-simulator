@@ -1,0 +1,17 @@
+For the ADDTOCART, i think it should be a copy paste of the method orderProduct in EcommcersSystem, but instead, instead of ordering the product,
+it will be played into a list which is the customer's cart (This could be used via a map, where it maps each's customer's customer id
+with their cart's list of items (aka, customer id is linked with the customer's cart, which could be a list).
+Something i should do, make a map with customer's id's as a name, and create a list which is mapped to it.
+
+
+NEED TO HAVE AN ERROR CHECK IF THERE IS NOTHING IN THE CUSTOMER'S CART (EXAMPLE: THROW EMPTY CART EXCEPTIONS:PRINT LINE THERE IS NOTHING IN YOUR CART
+
+FIX ORDERITEMS
+
+printallbooks
+printallproducts
+orderProduct
+ADDTOCART
+removefromcart
+
+SHIP and cancel METHOD works but always throws an error regarless if it is true or not
