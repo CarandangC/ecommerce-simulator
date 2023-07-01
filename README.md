@@ -1,15 +1,47 @@
-One bug about the code is that the methods ship and cancel in the userinterface works, but always throws an 
-error no matter what happens, which I cannot find out the reason why as the logic does not make sense
-(it still throws the error after returning a value). 
+eCommerce Simulator
 
-ADDTOCART
-REMCARTITEM
-PRINTCART 
-ORDERITEMS
-Have all been implemented.
+eCommerce Simulator is a Java application that simulates the basic functionalities of an eCommerce platform. It allows users to perform various operations, such as adding products to a shopping cart, placing orders, and managing inventory. This project serves as a learning tool to understand the fundamental concepts of building an eCommerce system.
 
-Error messeages have been changed to exceptions
-the arraylist products has been implemented as a hashmap
-Cart and CartItem classes has been implemented.
+Getting Started:
 
-In general everthing works as supposed to asides from the bug stated earlier.
+To get started with the eCommerce Simulator, follow these steps:
+
+Prerequisites:
+
+- Java Development Kit (JDK) installed on your machine.
+
+Installation:
+
+1. Clone the repository:
+
+   git clone https://github.com/CarandangC/ecommerce-simulator.git
+
+2. Navigate to the project directory:
+
+   cd ecommerce-simulator
+
+Usage:
+
+1. Open a terminal or command prompt.
+
+2. Compile the Java source code using the following command:
+
+   javac ECommerseUserInterface.java
+
+3. Once the compilation is successful, run the eCommerce Simulator using the following command:
+
+   java ECommerceUserInterface
+
+4. The program will now be running. Here are some commands you can execute:
+  prods: displays product information
+  custs: displays customer information
+  books: displays books
+  newcust: creates a new customer
+  order: creates an order for a customer
+  orders: shows a list of orders
+  ship: ships an order if applicable
+  custorders: shows the orders of a particular customer
+
+
+
+   
