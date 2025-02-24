@@ -26,7 +26,7 @@ Usage:
 
 2. Compile the Java source code using the following command:
 
-   javac ECommerseUserInterface.java
+   javac ECommerceUserInterface.java
 
 3. Once the compilation is successful, run the eCommerce Simulator using the following command:
 
